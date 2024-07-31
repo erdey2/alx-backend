@@ -2,7 +2,7 @@
 """Basic Babel setup  """
 
 from flask import Flask, render_template
-from flask-babel import Babel
+from flask_babel import Babel
 
 
 class Config(object):
