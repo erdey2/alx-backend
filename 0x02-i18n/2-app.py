@@ -18,6 +18,7 @@ app.url_map.strict_slashes = False
 
 babel = Babel(app)
 
+
 @babel.localselector
 def get_local() -> str:
     """ select language translation """
